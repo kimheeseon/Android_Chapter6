@@ -30,7 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/rdoCal"
-            android:text="날짜 설정(캘린더 뷰)"/>
+            android:text="날짜 설정(데이트피커)"/>
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -44,11 +44,16 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-           <CalendarView
-                android:layout_width="wrap_content"
+            <!-- <CalendarView
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:id="@+id/calendarView1"
+                 android:showWeekNumber="false"/>-->
+            <DatePicker
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:id="@+id/calendarView1"
-                android:showWeekNumber="false"/>
+                android:id="@+id/datePicker1"
+                android:datePickerMode="spinner"/>
             <TimePicker
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
