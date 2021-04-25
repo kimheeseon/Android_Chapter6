@@ -26,8 +26,6 @@
     </LinearLayout>
     <RadioGroup android:layout_height="wrap_content"
         android:layout_width="match_parent">
-        android:layout_height="match_parent"
-        android:layout_width="wrap_content"
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -46,16 +44,11 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-           <!-- <CalendarView
+           <CalendarView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:id="@+id/calendarView1"
-                android:showWeekNumber="false"/>-->
-            <DatePicker
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:id="@+id/datePicker1"
-                android:datePickerMode="spinner"/>
+                android:showWeekNumber="false"/>
             <TimePicker
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
